@@ -1,0 +1,35 @@
+# Libraries & Stuff #
+#####################
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Basic
+DOCS/
+lib/node_modules
+<!-- dist/ -->
+lib/.sass-cache
+.DS_Store
+
+
+
+#### REACT ITEMS ####
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/package-lock.json
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+
+######################
+
