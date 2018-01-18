@@ -1,10 +1,12 @@
-const { render } = ReactDOM
+import React from 'react'
+import { render } from 'react-dom'
+import { hello, goodbye } from './lib'
 
 render(
-	<h1 id='title'
-		className='header'
-		style={{backgroundColor: 'blue', color: 'white', fontFamily: 'verdana'}}>
-	Hello React, Hello Webpack!	
-	</h1>,
+  <div>
+    {hello}
+    {goodbye}
+    The salutation and valediction are pulled from a .json file.
+  </div>,
 	document.getElementById('react-container')
 )
