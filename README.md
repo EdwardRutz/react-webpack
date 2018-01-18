@@ -3,6 +3,18 @@ React & Webpack
 A basic React app used to play with Webpack and other tools.
 - A code-a-long from the Linkedin Course React Essential Training
 
+## Concepts Learned
+- Using Chrome and Firefox with React development
+- Efficient rendering with React
+- Using pure React
+- Refactoring elements with JSX
+- Babel inline and static transpiling
+- Creatng a Webpack build
+- Loading JSON with Webpack
+- Adding CSS/SCSS to a Webpack Build, using import statements
+- Migrating to Webpack 3
+
+
 
 
 ## Dependecies
@@ -18,6 +30,11 @@ A basic React app used to play with Webpack and other tools.
 
 ## Notes
 - To run webpack without installing globally:  ```./node_modules/.bin/webpack```
+- Or run webpack with, ```npm run Build```
+- Or, use webpack-dev-server to live-update bundle.js 
+  - To start the webpack server ```npm start```
+
+
 
 
 
