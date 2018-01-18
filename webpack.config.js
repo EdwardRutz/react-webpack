@@ -1,6 +1,3 @@
-//Describes everything webpack does for files
-
-
 var webpack = require("webpack");
 
 module.exports = {
@@ -10,15 +7,11 @@ module.exports = {
 		filename: "bundle.js",
 		publicPath: "assets"
 	},
-
 	devServer: {
 		inline: true,
-		contentBase: '/dist',
+		contentBase: './dist',
 		port: 3000
 	},
-
-
-//The different tasks webpack performs...
 	module: {
 		loaders: [
 			{
@@ -28,7 +21,17 @@ module.exports = {
 				query: {
 					presets: ["latest", "stage-0", "react"]
 				}
+			},
+
+			{
+					test: /\.json$/,
+					exclude: /(node_modules)/,
+					loader: "json-loader"
 			}
+
 		]
 	}
 }
+
+
+
