@@ -5,17 +5,22 @@
 These are notes,log and code snippets from the project with final code in the app.
 - To review code, see the app.
 
--------------------------------------------------
-#### NEXT ACTION:
-
+## Concepts
+- Using Chrome and Firefox with React development
+- Efficient rendering with React
+- Using pure React
+- Refactoring elements with JSX
+- Babel inline and static transpiling
+- Creatng a Webpack build
+- Loading JSON with Webpack
+- Adding CSS/SCSS to a Webpack Build, using import statements
+- Migrating to Webpack 3
 
 
 -------------------------------------------------
 
 - Start Webpack-dev-server: ```npm start```  
 - Build bundle with webpack:  ```npm run build```
-
-
 
 -------------------------------------------------
 
@@ -195,16 +200,6 @@ Webpack is watching the files…
 
 
 
-
-
-
---------------------------------------------------------------------------------------------------
-## REACT COMPONENTS
-
-
-
-
-
 --------------------------------------------------------------------------------------------------
 
 ## REVIEW
@@ -213,7 +208,11 @@ Webpack is watching the files…
 - What is Babel? Why use it?
 - What is the advantage of using webpack-dev-server? Alternative?
 - What two packages are used with React? Describe?
+- How does webpack improve performance?
 
+
+- Javascript and XML. An exptension of javascript used to write React components.
+- Webpack creates fewer request made by the app because it bundles all the file request into one bundled javescript file which makes fewer requests.
 
 
 ## Eloborate and Apply to other Projects
@@ -232,6 +231,7 @@ Webpack is watching the files…
 - [Using autoprefixer-loader and postcss-loader](https://github.com/postcss/autoprefixer#webpack)
 - [Autoprefixer-loader](https://www.npmjs.com/package/autoprefixer-loader)
 
+[Wiki: React Javascript Library](https://en.wikipedia.org/wiki/React_(JavaScript_library)#JSX)
 
 
 

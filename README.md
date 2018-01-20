@@ -41,7 +41,13 @@ A basic React app used to play with Webpack and other tools.
   - To start the webpack server ```npm start```
 
 
-
+## REVIEW
+- What is React.js?
+- What is JSX? Why use it?
+- What is Babel? Why use it?
+- What is the advantage of using webpack-dev-server? Alternative?
+- What two packages are used with React? Describe?
+- How does webpack improve performance?
 
 
 
