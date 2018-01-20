@@ -3,7 +3,6 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # Basic
-DOCS/
 lib/node_modules
 <!-- dist/ -->
 lib/.sass-cache
