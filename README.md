@@ -3,7 +3,7 @@ React & Webpack
 A basic React app used to play with Webpack and other tools.
 - A code-a-long from the Linkedin Course React Essential Training
 
-## Concepts Learned
+## Concepts
 - Using Chrome and Firefox with React development
 - Efficient rendering with React
 - Using pure React
@@ -15,9 +15,8 @@ A basic React app used to play with Webpack and other tools.
 - Migrating to Webpack 3
 
 
-
-
 ## Dependecies
+- [npm](https://www.npmjs.com/)
 - "babel-cli": "6.18.0",
 - "babel-loader": "6.2.5",
 - "babel-preset-latest": "6.16.0",
@@ -25,6 +24,13 @@ A basic React app used to play with Webpack and other tools.
 - ["babel-preset-stage-0": "6.16.0"](https://github.com/babel/babel/tree/master/packages/babel-preset-stage-0)
 - "webpack": "1.13.3"
 
+## SetUp Repo
+- Clone repo
+- Install dependencies, ```npm install```
+
+### Start
+- Update build:  ```npm run build```
+- Start web-dev-server: ```npm start```
 
 
 
@@ -39,7 +45,7 @@ A basic React app used to play with Webpack and other tools.
 
 
 
-
+-------------------------------------------------------------
 ## References
 - [LL: React Essential Training](https://www.linkedin.com/learning/react-js-essential-training/loading-json-with-webpack-2)
 - [Webpack.js.org](https://webpack.js.org)
